@@ -1275,7 +1275,7 @@ def rename_ebooks(
 
 def main():
     parser = argparse.ArgumentParser(
-        description="🚀 Universal Ebook Renamer (PDF, EPUB, MOBI, FB2, AZW)",
+        description="📚 Universal Ebook Renamer v2.5 (PDF, EPUB, MOBI, FB2, AZW)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 📖 Supported Formats: PDF, EPUB, MOBI, AZW, AZW3, FB2
@@ -1354,7 +1354,7 @@ def main():
     
     if args.verbose:
         print("=" * 70)
-        print("📚 Universal Ebook Renamer v2.0")
+        print("📚 Universal Ebook Renamer v2.5")
         print("=" * 70)
         print(f"📁 Directory: {args.directory}")
         print(f"🏷️ Template: '{args.template}'")
